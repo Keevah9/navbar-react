@@ -1,4 +1,5 @@
 import React from "react"
+
 const Menu=()=>{
     return (
       <ul className="navLinks">
@@ -20,6 +21,7 @@ const Menu=()=>{
       </ul>
     );
 }
+
 
 export default Menu
 
