@@ -1,8 +1,7 @@
 import React from "react"
-
 const Menu=()=>{
     return (
-      <ul className="navLinks">
+      <ul className="links">
         <li>
           <a href="Home">Home</a>
         </li>

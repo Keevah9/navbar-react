@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 .App-header {
@@ -22,29 +23,33 @@ li a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 1rem;
+    display: block;
 }
-
 li {
     padding: .5rem;
-}
-
-.socialLinks,
-.menuCon {
-    display: none;
-}
-
-ul {
     list-style: none;
+}
+.socialLinks {
+    display: none;
 }
 
 li a:hover {
     color: #61dafb;
 }
+.navLink{
+    height: 0;
+    
+    overflow: hidden;
+}
 
+.addHeight{
+    min-height: 11rem;
+}
 
 @media screen and (min-width:670px) {
     .menuCon {
         display: block;
+        /* height: auto; */
     }
 
     .menuItem,
@@ -62,8 +67,11 @@ li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
-
+.navLink{
+    height: auto;
+}
     .socialLinks {
         display: flex;
         gap: 8px;
